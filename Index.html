@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="col-md-2 border-dark bg-light">
+          <p>9 am</p>
+        </div>
+        <div id="text-0" class="col-md-8 border-light" data-time=9>
+          <textarea class="form-control" id="task0"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data0">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>10 am</p>
+        </div>
+        <div id="text-1" class="col-md-8 border-light" data-time=10>
+          <textarea class="form-control" id="task1"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data1">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>11 am</p>
+        </div>
+        <div id="text-2" class="col-md-8 border-light" data-time=11>
+          <textarea class="form-control" id="task2"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data2">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>12 pm</p>
+        </div>
+        <div id="text-3"class="col-md-8 border-light" data-time=12>
+          <textarea class="form-control" id="task3"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data3">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>1 pm</p>
+        </div>
+        <div id="text-4"class="col-md-8 border-light" data-time=13>
+          <textarea class="form-control" id="task4"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data4">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>2 pm</p>
+        </div>
+        <div id="text-5"class="col-md-8 border-light" data-time=14>
+          <textarea class="form-control" id="task5"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data5">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>3 pm</p>
+        </div>
+        <div id="text-6"class="col-md-8 border-light" data-time=15>
+          <textarea class="form-control" id="task6"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data6">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>4 pm</p>
+        </div>
+        <div id="text-7"class="col-md-8 border-light" data-time=16>
+          <textarea class="form-control" id="task7"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data7">save</button>
+        </div>
+
+        <div class="col-md-2 border-dark bg-light">
+          <p>5 pm</p>
+        </div>
+        <div id="text-8"class="col-md-8 border-light" data-time=17>
+          <textarea class="form-control" id="task8"></textarea>
+        </div>
+        <div class="col-md-1 border-dark bg-light">
+          <button id="save-data8">save</button>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./js.js"></script>
+  </body>
+</html>
+
+/
